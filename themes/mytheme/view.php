@@ -14,7 +14,7 @@ class View{
 							<p class="card-text">'.$dataArray[$i]["message"] .'</p>
 							<form method="POST" action="">
 								<input type="hidden" id="id" name="id" value="'.$dataArray[$i]["id"].'"/>
-								<input type="submit" onclick="return confirm(\'Êtes-vous sûr de vouloir supprimer ce message ??\')" value="Suuprimer le message" />
+								<input type="submit" onclick="return confirm(\'Êtes-vous sûr de vouloir supprimer ce message ??\')" value="Suprimer le message" />
 							</form>
 						</div>
 					</div>';
